@@ -1,5 +1,3 @@
-Proximal Policy Optimization (PPO) algorithm illustration
-
 # Complete Guide to Proximal Policy Optimization (PPO)
 
 ## Introduction
