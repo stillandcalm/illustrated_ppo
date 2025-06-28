@@ -1,0 +1,32 @@
+# Core dependencies for PPO training
+torch>=2.0.0
+transformers>=4.30.0
+trl>=0.7.0
+datasets>=2.14.0
+accelerate>=0.20.0
+
+# For numerical operations
+numpy>=1.24.0
+
+# For visualization
+matplotlib>=3.7.0
+
+# For data serialization
+pickle-mixin>=1.0.2
+
+# CUDA-specific (optional - comment out if using CPU only)
+# torch==2.0.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+
+# Additional useful packages
+tqdm>=4.65.0  # Progress bars
+pandas>=2.0.0  # Data manipulation
+tensorboard>=2.13.0  # Training visualization (optional)
+
+# Specific versions if you want exact reproducibility
+# torch==2.0.1
+# transformers==4.35.2
+# trl==0.7.4
+# datasets==2.14.6
+# accelerate==0.24.1
+# numpy==1.24.3
+# matplotlib==3.7.2
